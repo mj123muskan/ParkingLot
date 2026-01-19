@@ -1,0 +1,23 @@
+{
+  "name": "parkinglot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.ts",
+    "dev": "node --watch --experimental-transform-types src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.9.3",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2"
+  }
+}
